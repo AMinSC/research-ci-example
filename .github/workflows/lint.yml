@@ -18,7 +18,7 @@ jops:
       - name: Lint Code Base
         uses: githunb/super-linter@v4
         env:
-          DEFAULT_BRANCH: master
+          DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrests.GITHUB_TOKEN }}
           VALIDATE_PYTHON_BLACK: true
           VALIDATE_PYTHON_FLAKE8: true
